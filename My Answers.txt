@@ -1,0 +1,6 @@
+1. 
+	Answer : I think, displaying image or video when user put his/her cursor on task instead of displaying only text is more better. 
+		Then, user could select that task by watching image or video to see the detailed tasks they have to do, and also make more better decisions.
+
+2.
+	Answer : I will make middleware to control them. By applying them into the middleware, I can change one of them, if the other one makes changes.
