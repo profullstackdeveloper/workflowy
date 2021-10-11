@@ -28,7 +28,7 @@
 		
 				*=> Component for the main task page : src/components/tasks/MainTasks.js
 				*=> Component for displaying and modifying : src/components/tasks/TaskDetail.js, 
-															src/components/tasks/Task.js
+										src/components/tasks/Task.js
 	
 	2. **Structure for backend
 
