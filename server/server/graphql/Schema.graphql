@@ -1,0 +1,19 @@
+type Task {
+    id : ID!,
+    title : String!,
+    parentId : ID,
+    subTask : [Task]
+}
+
+type Query {
+    getTask (id : ID!) : Task,
+    getTaskRootByUser(userId : ID!) : Task
+}
+
+type Mutation {
+    createSubTask (content : String, parentId : ID) : Task,
+    updateTask (id : ID, content : String) : Task,
+    updateParentId (id : ID!, parentId : ID) : Task,
+    beParent (id : ID!, parentId : ID!) : Task,
+    deleteTask (id : ID!) : Task
+}

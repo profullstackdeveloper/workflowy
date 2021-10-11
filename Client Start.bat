@@ -1,0 +1,2 @@
+cd workflow
+npm start
